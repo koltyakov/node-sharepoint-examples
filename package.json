@@ -1,0 +1,39 @@
+{
+  "name": "sp-request-example-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ts:run:jsom": "ts-node ./src/api/jsom.ts",
+    "ts:run:pnp": "ts-node ./src/api/pnp.ts",
+    "ts:run:request": "ts-node ./src/api/request.ts",
+    "js:run:jsom": "npm run build && node ./dist/api/jsom.js",
+    "js:run:pnp": "npm run build && node ./dist/api/pnp.js",
+    "js:run:request": "npm run build && node ./dist/api/request.js",
+    "build": "npm run tslint && tsc -p .",
+    "tslint": "tslint --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/spnode-public/sp-request-example-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/spnode-public/sp-request-example-01/issues"
+  },
+  "homepage": "https://gitlab.com/spnode-public/sp-request-example-01#README",
+  "description": "",
+  "dependencies": {
+    "node-sp-auth-config": "^2.3.0",
+    "sp-jsom-node": "^1.0.2",
+    "sp-pnp-node": "^2.0.1",
+    "sp-request": "^2.1.2"
+  },
+  "devDependencies": {
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.6.2"
+  }
+}
