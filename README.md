@@ -1,4 +1,4 @@
-# Node.js SharePoint Exapmles
+# Node.js SharePoint Examples
 
 ## Clone the repo
 
