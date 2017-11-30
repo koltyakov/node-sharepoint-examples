@@ -1,4 +1,4 @@
-# SPNode Exapmles
+# Node.js SharePoint Exapmles
 
 ## Clone the repo
 
