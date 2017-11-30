@@ -3,7 +3,7 @@
 ## Clone the repo
 
 ```bash
-git clone https://gitlab.com/spnode-public/sp-request-example-01 && cd sp-request-example-01
+git clone https://github.com/koltyakov/node-sharepoint-examples && cd node-sharepoint-examples
 ```
 
 ## Restore dependencies
