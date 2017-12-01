@@ -4,7 +4,7 @@ Example shows the setup of a project for using SharePoint technologies in Node.j
 Setup includes:
 - TypeScript configuration
 - TSLint configuration
-- VSCore TypeScript debug parameters
+- VS Code TypeScript debug parameters
 - Technologies:
   - [PnP JS Core](https://github.com/SharePoint/PnP-JS-Core) in Node.js context
   - JSOM (JavaScript Object Model) for Node.js
