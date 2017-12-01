@@ -17,4 +17,6 @@ setup({
     console.log(`Web title with sp-pnp-node: ${res.Title}`);
   }).catch(console.log);
 
+  // See more examples https://github.com/SharePoint/PnP-JS-Core && https://github.com/SharePoint/PnP-JS-Core/wiki
+
 }).catch(console.log);

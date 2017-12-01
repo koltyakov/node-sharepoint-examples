@@ -10,4 +10,6 @@ auth.getContext().then(context => {
     })
     .catch(console.log);
 
+  // See more examples https://github.com/s-kainet/sp-request
+
 }).catch(console.log);
